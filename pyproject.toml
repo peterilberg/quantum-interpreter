@@ -1,0 +1,13 @@
+[project]
+name = "quantum-interpreter"
+version = "0.1.0"
+description = "Python implementation of Robert Smith's Quantum Interpreter tutorial."
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+    "pytest>=9.1.1",
+]
